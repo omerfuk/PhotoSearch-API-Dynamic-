@@ -13,6 +13,7 @@
 		DE4EB0AD287826E200F14081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4EB0AB287826E200F14081 /* Main.storyboard */; };
 		DE4EB0AF287826E400F14081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4EB0AE287826E400F14081 /* Assets.xcassets */; };
 		DE4EB0B2287826E400F14081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4EB0B0287826E400F14081 /* LaunchScreen.storyboard */; };
+		DE4EB0BA28782CB400F14081 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4EB0B928782CB400F14081 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DE4EB0AE287826E400F14081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4EB0B1287826E400F14081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4EB0B3287826E400F14081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4EB0B928782CB400F14081 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DE4EB0AE287826E400F14081 /* Assets.xcassets */,
 				DE4EB0B0287826E400F14081 /* LaunchScreen.storyboard */,
 				DE4EB0B3287826E400F14081 /* Info.plist */,
+				DE4EB0B928782CB400F14081 /* ImageCollectionViewCell.swift */,
 			);
 			path = "PhotoSearch(API)(Dynamic)";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				DE4EB0AA287826E200F14081 /* ViewController.swift in Sources */,
 				DE4EB0A6287826E200F14081 /* AppDelegate.swift in Sources */,
+				DE4EB0BA28782CB400F14081 /* ImageCollectionViewCell.swift in Sources */,
 				DE4EB0A8287826E200F14081 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
